@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Device Info</string>
+    
+    <!-- Category titles -->
+    <string name="category_device">Device Information</string>
+    <string name="category_cpu">CPU Information</string>
+    <string name="category_memory">Memory Information</string>
+    <string name="category_storage">Storage Information</string>
+    <string name="category_display">Display Information</string>
+    <string name="category_network">Network Information</string>
+    <string name="category_battery">Battery Information</string>
+    <string name="category_system">System Information</string>
+    <string name="category_hardware">Hardware Information</string>
+    
+    <!-- Device info labels -->
+    <string name="label_device_name">Device Name</string>
+    <string name="label_manufacturer">Manufacturer</string>
+    <string name="label_model">Model</string>
+    <string name="label_brand">Brand</string>
+    <string name="label_product">Product</string>
+    <string name="label_device_id">Device ID</string>
+    <string name="label_serial_number">Serial Number</string>
+    
+    <!-- CPU info labels -->
+    <string name="label_cpu_cores">CPU Cores</string>
+    <string name="label_cpu_architecture">Architecture</string>
+    <string name="label_cpu_frequency">CPU Frequency</string>
+    <string name="label_cpu_abi">ABI</string>
+    
+    <!-- Memory info labels -->
+    <string name="label_total_memory">Total Memory</string>
+    <string name="label_available_memory">Available Memory</string>
+    <string name="label_used_memory">Used Memory</string>
+    <string name="label_memory_class">Memory Class</string>
+    
+    <!-- Storage info labels -->
+    <string name="label_internal_storage">Internal Storage</string>
+    <string name="label_external_storage">External Storage</string>
+    <string name="label_available_storage">Available Storage</string>
+    <string name="label_used_storage">Used Storage</string>
+    
+    <!-- Display info labels -->
+    <string name="label_screen_resolution">Screen Resolution</string>
+    <string name="label_screen_density">Screen Density</string>
+    <string name="label_screen_size">Screen Size</string>
+    <string name="label_refresh_rate">Refresh Rate</string>
+    
+    <!-- Network info labels -->
+    <string name="label_network_type">Network Type</string>
+    <string name="label_network_operator">Network Operator</string>
+    <string name="label_wifi_status">WiFi Status</string>
+    <string name="label_ip_address">IP Address</string>
+    
+    <!-- Battery info labels -->
+    <string name="label_battery_level">Battery Level</string>
+    <string name="label_battery_status">Battery Status</string>
+    <string name="label_battery_health">Battery Health</string>
+    <string name="label_battery_technology">Battery Technology</string>
+    
+    <!-- System info labels -->
+    <string name="label_android_version">Android Version</string>
+    <string name="label_api_level">API Level</string>
+    <string name="label_kernel_version">Kernel Version</string>
+    <string name="label_build_number">Build Number</string>
+    <string name="label_security_patch">Security Patch</string>
+    
+    <!-- Hardware info labels -->
+    <string name="label_sensors">Sensors</string>
+    <string name="label_cameras">Cameras</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="label_gps">GPS</string>
+    
+    <!-- Units -->
+    <string name="unit_gb">GB</string>
+    <string name="unit_mb">MB</string>
+    <string name="unit_mhz">MHz</string>
+    <string name="unit_dpi">DPI</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_percent">%</string>
+    
+    <!-- Status values -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_not_charging">Not Charging</string>
+    <string name="status_good">Good</string>
+    <string name="status_unknown">Unknown</string>
+    
+    <!-- Permission message -->
+    <string name="permission_required">Some device information requires additional permissions</string>
+</resources>

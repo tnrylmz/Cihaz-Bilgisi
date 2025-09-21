@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Cihaz Bilgisi</string>
+    
+    <!-- Category titles -->
+    <string name="category_device">Cihaz Bilgileri</string>
+    <string name="category_cpu">İşlemci Bilgileri</string>
+    <string name="category_memory">Bellek Bilgileri</string>
+    <string name="category_storage">Depolama Bilgileri</string>
+    <string name="category_display">Ekran Bilgileri</string>
+    <string name="category_network">Ağ Bilgileri</string>
+    <string name="category_battery">Batarya Bilgileri</string>
+    <string name="category_system">Sistem Bilgileri</string>
+    <string name="category_hardware">Donanım Bilgileri</string>
+    
+    <!-- Device info labels -->
+    <string name="label_device_name">Cihaz Adı</string>
+    <string name="label_manufacturer">Üretici</string>
+    <string name="label_model">Model</string>
+    <string name="label_brand">Marka</string>
+    <string name="label_product">Ürün</string>
+    <string name="label_device_id">Cihaz ID</string>
+    <string name="label_serial_number">Seri Numarası</string>
+    
+    <!-- CPU info labels -->
+    <string name="label_cpu_cores">İşlemci Çekirdekleri</string>
+    <string name="label_cpu_architecture">Mimari</string>
+    <string name="label_cpu_frequency">İşlemci Frekansı</string>
+    <string name="label_cpu_abi">ABI</string>
+    
+    <!-- Memory info labels -->
+    <string name="label_total_memory">Toplam Bellek</string>
+    <string name="label_available_memory">Kullanılabilir Bellek</string>
+    <string name="label_used_memory">Kullanılan Bellek</string>
+    <string name="label_memory_class">Bellek Sınıfı</string>
+    
+    <!-- Storage info labels -->
+    <string name="label_internal_storage">Dahili Depolama</string>
+    <string name="label_external_storage">Harici Depolama</string>
+    <string name="label_available_storage">Kullanılabilir Depolama</string>
+    <string name="label_used_storage">Kullanılan Depolama</string>
+    
+    <!-- Display info labels -->
+    <string name="label_screen_resolution">Ekran Çözünürlüğü</string>
+    <string name="label_screen_density">Ekran Yoğunluğu</string>
+    <string name="label_screen_size">Ekran Boyutu</string>
+    <string name="label_refresh_rate">Yenileme Hızı</string>
+    
+    <!-- Network info labels -->
+    <string name="label_network_type">Ağ Türü</string>
+    <string name="label_network_operator">Ağ Operatörü</string>
+    <string name="label_wifi_status">WiFi Durumu</string>
+    <string name="label_ip_address">IP Adresi</string>
+    
+    <!-- Battery info labels -->
+    <string name="label_battery_level">Batarya Seviyesi</string>
+    <string name="label_battery_status">Batarya Durumu</string>
+    <string name="label_battery_health">Batarya Sağlığı</string>
+    <string name="label_battery_technology">Batarya Teknolojisi</string>
+    
+    <!-- System info labels -->
+    <string name="label_android_version">Android Sürümü</string>
+    <string name="label_api_level">API Seviyesi</string>
+    <string name="label_kernel_version">Kernel Sürümü</string>
+    <string name="label_build_number">Yapı Numarası</string>
+    <string name="label_security_patch">Güvenlik Yaması</string>
+    
+    <!-- Hardware info labels -->
+    <string name="label_sensors">Sensörler</string>
+    <string name="label_cameras">Kameralar</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="label_gps">GPS</string>
+    
+    <!-- Units -->
+    <string name="unit_gb">GB</string>
+    <string name="unit_mb">MB</string>
+    <string name="unit_mhz">MHz</string>
+    <string name="unit_dpi">DPI</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_percent">%</string>
+    
+    <!-- Status values -->
+    <string name="status_connected">Bağlı</string>
+    <string name="status_disconnected">Bağlı Değil</string>
+    <string name="status_enabled">Etkin</string>
+    <string name="status_disabled">Devre Dışı</string>
+    <string name="status_charging">Şarj Oluyor</string>
+    <string name="status_not_charging">Şarj Olmuyor</string>
+    <string name="status_good">İyi</string>
+    <string name="status_unknown">Bilinmiyor</string>
+    
+    <!-- Permission message -->
+    <string name="permission_required">Bazı cihaz bilgileri için ek izinler gereklidir</string>
+</resources>
