@@ -21,7 +21,6 @@ class DeviceInfoCategoryAdapter(
         val categoryTitle: TextView = itemView.findViewById(R.id.categoryTitle)
         val expandIcon: ImageView = itemView.findViewById(R.id.expandIcon)
         val itemsRecyclerView: RecyclerView = itemView.findViewById(R.id.itemsRecyclerView)
-        val iconBackground: View = categoryIcon.parent as View
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
@@ -36,8 +35,8 @@ class DeviceInfoCategoryAdapter(
         holder.categoryTitle.text = category.title
         holder.categoryIcon.setImageResource(category.iconRes)
         
-        // Set icon background color
-        holder.iconBackground.setBackgroundColor(
+        // Set icon tint color
+        holder.categoryIcon.setColorFilter(
             ContextCompat.getColor(holder.itemView.context, category.backgroundColor)
         )
         
